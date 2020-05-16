@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body,
+.root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+body,
+.app {
+  background: #f5f5f5;
+}
+
+/* CreateContact */
+.user-form {
+  background-color: #ff8084;
+  margin: auto;
+  width: 500px;
+  border-radius: 15px;
+  color: #fff;
+}
+.create-contact-form {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.create-contact-details {
+  margin-left: 20px;
+}
+
+.create-contact-details input {
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-size: inherit;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: 0;
+}
+
+.create-contact-details button {
+  margin-top: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: inherit;
+  border: none;
+  outline: 0;
+}
